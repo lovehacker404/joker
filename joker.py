@@ -410,6 +410,7 @@ def pilih_super():
 																	cek.close()
 																	cekpoint.append(user+pass7)
 	pass  OSError:
+              pass
 	try:													
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
